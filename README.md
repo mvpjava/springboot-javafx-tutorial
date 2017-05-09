@@ -11,5 +11,4 @@ The example also showcases how you can take advantage of Spring Test for
 you Integration tests.
 
 You can follow along via MVP Java's YouTube Video Tutorial 
-Title: Integrating Spring Boot with JavaFX
-video link: https://youtu.be/hjeSOxi3uPg
+"Integrating Spring Boot with JavaFX" https://youtu.be/hjeSOxi3uPg

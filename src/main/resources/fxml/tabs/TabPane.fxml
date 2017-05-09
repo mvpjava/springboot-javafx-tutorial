@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="tabbedDisplayAnchor" maxHeight="-1.0" maxWidth="-1.0" 
+            prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS" 
+            xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" 
+            fx:controller="com.mvp.java.controllers.TabPaneManger">
+    <children>
+        <TabPane prefHeight="368.0" prefWidth="640.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <tabs>
+                <fx:include fx:id="consoleTab" source="ConsoleTab.fxml" />
+                <fx:include fx:id="LoggerTab" source="LoggerTab.fxml" />
+            </tabs>
+        </TabPane>
+    </children>
+    <opaqueInsets>
+        <Insets />
+    </opaqueInsets>
+</AnchorPane>
